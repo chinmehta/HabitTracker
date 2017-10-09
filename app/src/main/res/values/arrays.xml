@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The options in the Habit Scale drop-down Spinner -->
+    <string-array name="array_scale">
+        <item>@string/habit_scale_unknown</item>
+        <item>@string/habit_scale_good</item>
+        <item>@string/habit_scale_very_good</item>
+        <item>@string/habit_scale_bad</item>
+        <item>@string/habit_scale_very_bad</item>
+    </string-array>
+</resources>

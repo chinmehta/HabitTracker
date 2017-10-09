@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">HabitTracker</string>
+
+    <!-- Label for menu option that inserts habit data into the app -->
+    <string name="insert_habit_data">Insert Habit Data</string>
+
+    <!-- Label for menu option that deletes all habit data -->
+    <string name="delete_all_data">Delete All Habits</string>
+
+    <!-- Title for the activity to add a habit -->
+    <string name="editor_new_habit">Add a Habit</string>
+
+    <!-- Label for editor menu option to save habit and leave editor -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor menu option that deletes the current habit -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Label for name info -->
+    <string name="category_name">Habit:</string>
+
+    <!-- Label for scale info -->
+    <string name="category_scale">Habit Scale</string>
+
+    <!-- Label for duration info -->
+    <string name="category_duration">Years</string>
+
+    <!-- hint for name field -->
+    <string name="hint_habit_name">Habit Name</string>
+
+    <!-- hint for scale field -->
+    <string name="hint_habit_scale">Level</string>
+
+    <!-- hint for duration field -->
+    <string name="hint_habit_duration">Habit Duration</string>
+
+    <!-- Labels for dropdown menu option -->
+    <string name="habit_scale_unknown">Unknown</string>
+
+    <string name="habit_scale_good">Good</string>
+
+    <string name="habit_scale_very_good">Very Good</string>
+
+    <string name="habit_scale_bad">Bad</string>
+
+    <string name="habit_scale_very_bad">Very Bad</string>
+
+</resources>

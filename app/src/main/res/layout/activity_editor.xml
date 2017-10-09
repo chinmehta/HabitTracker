@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/value_16dp"
+    tools:context=".EditorActivity">
+
+    <!-- Name category -->
+    <LinearLayout style="@style/LayoutCategory">
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="@string/category_name" />
+
+        <!-- Input fields -->
+        <LinearLayout style="@style/InputFields.two">
+
+            <EditText
+                android:id="@+id/put_habit_name"
+                style="@style/EditorFieldStyle"
+                android:hint="@string/hint_habit_name"
+                android:inputType="textCapWords" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Habit scale category -->
+    <LinearLayout
+        android:id="@+id/container_scale"
+        style="@style/LayoutCategory">
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="@string/category_scale" />
+
+        <!-- Input field -->
+        <LinearLayout style="@style/InputFields">
+
+            <!-- Habit Level drop-down spinner -->
+            <Spinner
+                android:id="@+id/spinner"
+                style="@style/Spinner"
+                android:spinnerMode="dropdown" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Duration category -->
+    <LinearLayout
+        android:id="@+id/container_duration"
+        style="@style/LayoutCategory">
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="@string/category_duration" />
+
+        <!-- Input fields -->
+        <RelativeLayout style="@style/InputFields">
+
+            <EditText
+                android:id="@+id/put_habit_duration"
+                style="@style/EditorFieldStyle"
+                android:hint="@string/hint_habit_duration"
+                android:inputType="number" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
