@@ -20,40 +20,45 @@ import com.example.android.habittracker.data.DBHelper;
 
 public class EditorActivity extends AppCompatActivity {
 
-    SQLiteDatabase db;
+
     private EditText mHabitName;
-    private EditText mHabitDuration;
     private Spinner mHabitSpinner;
+    private EditText mHabitDuration;
     private int mHabitLevel = HabitEntry.STATUS_UNKNOWN;
+    SQLiteDatabase db;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_editor);
 
         mHabitName = (EditText) findViewById(R.id.put_habit_name);
         mHabitDuration = (EditText) findViewById(R.id.put_habit_duration);
         mHabitSpinner = (Spinner) findViewById(R.id.spinner);
-
         setupSpinner();
     }
 
-    // Setup the dropdown spinner
+    // Set the
+    // dropdown spinner
     private void setupSpinner() {
-        // Create adapter for spinner
+        // Create an adapter
+        // for spinner
         ArrayAdapter genderSpinnerAdapter = ArrayAdapter.createFromResource(this,
                 R.array.array_scale, android.R.layout.simple_spinner_item);
 
-        // Specify dropdown layout style
+        // Specify the dropdown
+        // layout style
         genderSpinnerAdapter.setDropDownViewResource(android.R.layout.simple_dropdown_item_1line);
 
-        // Set the adapter to the spinner
+        // Set adapter to the spinner
         mHabitSpinner.setAdapter(genderSpinnerAdapter);
 
         mHabitSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 String selection = (String) parent.getItemAtPosition(position);
+
                 if (!TextUtils.isEmpty(selection)) {
                     if (selection.equals(getString(R.string.habit_scale_good))) {
                         mHabitLevel = HabitEntry.STATUS_GOOD;
