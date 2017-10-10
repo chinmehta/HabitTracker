@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     // Helper method to display information in the TextView about the state of the database
-    private void displayDatabaseInfo() {
+    private Cursor displayDatabaseInfo() {
 
         mDbHelper = new DBHelper(this);
 
@@ -91,6 +91,7 @@ public class MainActivity extends AppCompatActivity {
         } finally {
             cursor.close();
         }
+        return cursor;
     }
 
     @Override

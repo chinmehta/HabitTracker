@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\Work\Projects\Android\HabitTracker\app\build\intermediates\exploded-aar\com.android.support\design\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
+        <dex dex="D:\Work\Projects\Android\HabitTracker\app\build\intermediates\pre-dexed\debug\com.android.support-design-25.1.1_58fd28602d639347b5dbdd6dd0c1d49ac5dd3c40.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Work\Projects\Android\HabitTracker\app\build\intermediates\exploded-aar\com.android.support\transition\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
+        <dex dex="D:\Work\Projects\Android\HabitTracker\app\build\intermediates\pre-dexed\debug\com.android.support-transition-25.1.1_faaf07bd73e0de8a5f38071a0592d58b5db8511c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Work\Projects\Android\HabitTracker\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="D:\Work\Projects\Android\HabitTracker\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.3.1_160bebc47fdbd69728f3e9a44c8a408b351c80cd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Work\Projects\Android\HabitTracker\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="D:\Work\Projects\Android\HabitTracker\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.3.1_901c8a90621bc7294b10f914fa2daaf7e3da78a0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Android\SDK\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="D:\Work\Projects\Android\HabitTracker\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_4f3831924a4e26603f9d025005d1a5eb72a84b50.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Work\Projects\Android\HabitTracker\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="D:\Work\Projects\Android\HabitTracker\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.3.1_35b8d8317c1df2b54ca637eec38ec76a42a7c4b9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Work\Projects\Android\HabitTracker\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="D:\Work\Projects\Android\HabitTracker\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.3.1_6e7ec1047e53d266b1260052470a0bcd73774d69.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Work\Projects\Android\HabitTracker\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="D:\Work\Projects\Android\HabitTracker\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.3.1_682e9a00f358bb8b35bf8aa73200ad7ab68802b3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Work\Projects\Android\HabitTracker\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="D:\Work\Projects\Android\HabitTracker\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.3.1_25e928c1769755e5f96839ea6599710f8c120f1b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Work\Projects\Android\HabitTracker\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\Work\Projects\Android\HabitTracker\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.3.1_9aaad994f0c8927dd96678440084e51888ed6ae6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Work\Projects\Android\HabitTracker\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="D:\Work\Projects\Android\HabitTracker\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.3.1_163df5b0e85633ae63a293adef7fdcd003991e79.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Work\Projects\Android\HabitTracker\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
+        <dex dex="D:\Work\Projects\Android\HabitTracker\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-25.1.1_9940923da9f98c257151264e8027c44c4536315c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Work\Projects\Android\HabitTracker\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="D:\Work\Projects\Android\HabitTracker\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.3.1_86addc056a331e7c03238cd4a016895d58c8f461.jar" />
+    </item>
+
+</items>
